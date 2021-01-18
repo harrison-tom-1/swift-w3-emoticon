@@ -4,3 +4,4 @@
 # 21.01.18 - step1
 1. branch 생성
 2. 프로젝트 생성 및 NavigationControllerView 추가
+3. 이모티콘 데이터 추가 및 TableView에 출력
