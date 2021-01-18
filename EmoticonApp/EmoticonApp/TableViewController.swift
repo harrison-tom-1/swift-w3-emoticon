@@ -9,6 +9,9 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+        @IBOutlet var MytableView: UITableView!
+        @IBOutlet weak var adView: UIView!
+        @IBOutlet weak var basketImage: UIImageView!
     
         private let list = [
         [ "title" : "유년기오구의 쪼꼬만 일상", "author" : "문랩", "image" : "image01.png" ],
@@ -27,6 +30,8 @@ class TableViewController: UITableViewController {
         
         override func viewDidLoad() {
             super.viewDidLoad()
+            adView.backgroundColor = UIColor(patternImage: UIImage(named: "pattern.png")!)
+            basketImage.image = UIImage(named: "basket.png")
         }
     
         override func numberOfSections(in tableView: UITableView) -> Int {
