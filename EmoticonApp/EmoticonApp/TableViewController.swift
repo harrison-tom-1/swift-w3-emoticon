@@ -9,7 +9,6 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-        @IBOutlet var MytableView: UITableView!
         @IBOutlet weak var adView: UIView!
         @IBOutlet weak var basketImage: UIImageView!
     
