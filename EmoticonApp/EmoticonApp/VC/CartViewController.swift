@@ -34,7 +34,7 @@ class CartViewController: UIViewController{
     func initNavigationBar(){
         self.cleanButton.target = self
         self.cleanButton.action = #selector(buttonPressed)
-        self.navigationItem.title = "123"
+        self.navigationItem.title = "History"
         self.navigationItem.rightBarButtonItem = cleanButton
     }
     
