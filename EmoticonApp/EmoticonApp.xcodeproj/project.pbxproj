@@ -7,66 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C726CAB025B5AE6E0098195F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CAAF25B5AE6E0098195F /* AppDelegate.swift */; };
-		C726CAB725B5AE6E0098195F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C726CAB525B5AE6E0098195F /* Main.storyboard */; };
-		C726CAB925B5AE6F0098195F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C726CAB825B5AE6F0098195F /* Assets.xcassets */; };
-		C726CABC25B5AE6F0098195F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C726CABA25B5AE6F0098195F /* LaunchScreen.storyboard */; };
-		C726CAC725B5AE6F0098195F /* EmoticonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CAC625B5AE6F0098195F /* EmoticonAppTests.swift */; };
-		C726CAD225B5AE6F0098195F /* EmoticonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CAD125B5AE6F0098195F /* EmoticonAppUITests.swift */; };
-		C726CAE225B5B2120098195F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CAE125B5B2120098195F /* TableViewController.swift */; };
-		C726CAF025B5BC400098195F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CAEF25B5BC400098195F /* SceneDelegate.swift */; };
+		C726CB7E25B7C3460098195F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CB7D25B7C3460098195F /* AppDelegate.swift */; };
+		C726CB8025B7C3460098195F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CB7F25B7C3460098195F /* SceneDelegate.swift */; };
+		C726CB8525B7C3460098195F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C726CB8325B7C3460098195F /* Main.storyboard */; };
+		C726CB8725B7C3470098195F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C726CB8625B7C3470098195F /* Assets.xcassets */; };
+		C726CB8A25B7C3470098195F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C726CB8825B7C3470098195F /* LaunchScreen.storyboard */; };
+		C726CB9525B7C3470098195F /* EmoticonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CB9425B7C3470098195F /* EmoticonAppTests.swift */; };
+		C726CBA025B7C3470098195F /* EmoticonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CB9F25B7C3470098195F /* EmoticonAppUITests.swift */; };
+		C726CBB225B7C38B0098195F /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB025B7C38B0098195F /* HistoryTableViewCell.swift */; };
+		C726CBB325B7C38B0098195F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB125B7C38B0098195F /* MainTableViewCell.swift */; };
+		C726CBB625B7C3930098195F /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB425B7C3930098195F /* CartViewController.swift */; };
+		C726CBB725B7C3930098195F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB525B7C3930098195F /* MainViewController.swift */; };
+		C726CBBA25B7C39C0098195F /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB825B7C39C0098195F /* cart.swift */; };
+		C726CBBB25B7C39C0098195F /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB925B7C39C0098195F /* data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C726CAC325B5AE6F0098195F /* PBXContainerItemProxy */ = {
+		C726CB9125B7C3470098195F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C726CAA425B5AE6E0098195F /* Project object */;
+			containerPortal = C726CB7225B7C3460098195F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C726CAAB25B5AE6E0098195F;
+			remoteGlobalIDString = C726CB7925B7C3460098195F;
 			remoteInfo = EmoticonApp;
 		};
-		C726CACE25B5AE6F0098195F /* PBXContainerItemProxy */ = {
+		C726CB9C25B7C3470098195F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C726CAA425B5AE6E0098195F /* Project object */;
+			containerPortal = C726CB7225B7C3460098195F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C726CAAB25B5AE6E0098195F;
+			remoteGlobalIDString = C726CB7925B7C3460098195F;
 			remoteInfo = EmoticonApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C726CAAC25B5AE6E0098195F /* EmoticonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoticonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C726CAAF25B5AE6E0098195F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C726CAB625B5AE6E0098195F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C726CAB825B5AE6F0098195F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C726CABB25B5AE6F0098195F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C726CABD25B5AE6F0098195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C726CAC225B5AE6F0098195F /* EmoticonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoticonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C726CAC625B5AE6F0098195F /* EmoticonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonAppTests.swift; sourceTree = "<group>"; };
-		C726CAC825B5AE6F0098195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C726CACD25B5AE6F0098195F /* EmoticonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoticonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C726CAD125B5AE6F0098195F /* EmoticonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonAppUITests.swift; sourceTree = "<group>"; };
-		C726CAD325B5AE6F0098195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C726CAE125B5B2120098195F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		C726CAEF25B5BC400098195F /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C726CB7A25B7C3460098195F /* EmoticonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoticonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C726CB7D25B7C3460098195F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C726CB7F25B7C3460098195F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C726CB8425B7C3460098195F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C726CB8625B7C3470098195F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C726CB8925B7C3470098195F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C726CB8B25B7C3470098195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C726CB9025B7C3470098195F /* EmoticonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoticonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C726CB9425B7C3470098195F /* EmoticonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonAppTests.swift; sourceTree = "<group>"; };
+		C726CB9625B7C3470098195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C726CB9B25B7C3470098195F /* EmoticonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmoticonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C726CB9F25B7C3470098195F /* EmoticonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonAppUITests.swift; sourceTree = "<group>"; };
+		C726CBA125B7C3470098195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C726CBB025B7C38B0098195F /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		C726CBB125B7C38B0098195F /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		C726CBB425B7C3930098195F /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		C726CBB525B7C3930098195F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C726CBB825B7C39C0098195F /* cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
+		C726CBB925B7C39C0098195F /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C726CAA925B5AE6E0098195F /* Frameworks */ = {
+		C726CB7725B7C3460098195F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C726CABF25B5AE6F0098195F /* Frameworks */ = {
+		C726CB8D25B7C3470098195F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C726CACA25B5AE6F0098195F /* Frameworks */ = {
+		C726CB9825B7C3470098195F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,68 +86,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C726CAA325B5AE6E0098195F = {
+		C726CB7125B7C3460098195F = {
 			isa = PBXGroup;
 			children = (
-				C726CAAE25B5AE6E0098195F /* EmoticonApp */,
-				C726CAC525B5AE6F0098195F /* EmoticonAppTests */,
-				C726CAD025B5AE6F0098195F /* EmoticonAppUITests */,
-				C726CAAD25B5AE6E0098195F /* Products */,
+				C726CB7C25B7C3460098195F /* EmoticonApp */,
+				C726CB9325B7C3470098195F /* EmoticonAppTests */,
+				C726CB9E25B7C3470098195F /* EmoticonAppUITests */,
+				C726CB7B25B7C3460098195F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C726CAAD25B5AE6E0098195F /* Products */ = {
+		C726CB7B25B7C3460098195F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C726CAAC25B5AE6E0098195F /* EmoticonApp.app */,
-				C726CAC225B5AE6F0098195F /* EmoticonAppTests.xctest */,
-				C726CACD25B5AE6F0098195F /* EmoticonAppUITests.xctest */,
+				C726CB7A25B7C3460098195F /* EmoticonApp.app */,
+				C726CB9025B7C3470098195F /* EmoticonAppTests.xctest */,
+				C726CB9B25B7C3470098195F /* EmoticonAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C726CAAE25B5AE6E0098195F /* EmoticonApp */ = {
+		C726CB7C25B7C3460098195F /* EmoticonApp */ = {
 			isa = PBXGroup;
 			children = (
-				C726CAAF25B5AE6E0098195F /* AppDelegate.swift */,
-				C726CAE125B5B2120098195F /* TableViewController.swift */,
-				C726CAB525B5AE6E0098195F /* Main.storyboard */,
-				C726CAEF25B5BC400098195F /* SceneDelegate.swift */,
-				C726CAB825B5AE6F0098195F /* Assets.xcassets */,
-				C726CABA25B5AE6F0098195F /* LaunchScreen.storyboard */,
-				C726CABD25B5AE6F0098195F /* Info.plist */,
+				C726CB7D25B7C3460098195F /* AppDelegate.swift */,
+				C726CB7F25B7C3460098195F /* SceneDelegate.swift */,
+				C726CBAD25B7C3650098195F /* Model */,
+				C726CB8325B7C3460098195F /* Main.storyboard */,
+				C726CB8625B7C3470098195F /* Assets.xcassets */,
+				C726CBAF25B7C3720098195F /* VC */,
+				C726CBAE25B7C36A0098195F /* View */,
+				C726CB8825B7C3470098195F /* LaunchScreen.storyboard */,
+				C726CB8B25B7C3470098195F /* Info.plist */,
 			);
 			path = EmoticonApp;
 			sourceTree = "<group>";
 		};
-		C726CAC525B5AE6F0098195F /* EmoticonAppTests */ = {
+		C726CB9325B7C3470098195F /* EmoticonAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C726CAC625B5AE6F0098195F /* EmoticonAppTests.swift */,
-				C726CAC825B5AE6F0098195F /* Info.plist */,
+				C726CB9425B7C3470098195F /* EmoticonAppTests.swift */,
+				C726CB9625B7C3470098195F /* Info.plist */,
 			);
 			path = EmoticonAppTests;
 			sourceTree = "<group>";
 		};
-		C726CAD025B5AE6F0098195F /* EmoticonAppUITests */ = {
+		C726CB9E25B7C3470098195F /* EmoticonAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C726CAD125B5AE6F0098195F /* EmoticonAppUITests.swift */,
-				C726CAD325B5AE6F0098195F /* Info.plist */,
+				C726CB9F25B7C3470098195F /* EmoticonAppUITests.swift */,
+				C726CBA125B7C3470098195F /* Info.plist */,
 			);
 			path = EmoticonAppUITests;
+			sourceTree = "<group>";
+		};
+		C726CBAD25B7C3650098195F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C726CBB825B7C39C0098195F /* cart.swift */,
+				C726CBB925B7C39C0098195F /* data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C726CBAE25B7C36A0098195F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C726CBB025B7C38B0098195F /* HistoryTableViewCell.swift */,
+				C726CBB125B7C38B0098195F /* MainTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C726CBAF25B7C3720098195F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				C726CBB425B7C3930098195F /* CartViewController.swift */,
+				C726CBB525B7C3930098195F /* MainViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C726CAAB25B5AE6E0098195F /* EmoticonApp */ = {
+		C726CB7925B7C3460098195F /* EmoticonApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C726CAD625B5AE6F0098195F /* Build configuration list for PBXNativeTarget "EmoticonApp" */;
+			buildConfigurationList = C726CBA425B7C3470098195F /* Build configuration list for PBXNativeTarget "EmoticonApp" */;
 			buildPhases = (
-				C726CAA825B5AE6E0098195F /* Sources */,
-				C726CAA925B5AE6E0098195F /* Frameworks */,
-				C726CAAA25B5AE6E0098195F /* Resources */,
+				C726CB7625B7C3460098195F /* Sources */,
+				C726CB7725B7C3460098195F /* Frameworks */,
+				C726CB7825B7C3460098195F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,69 +184,69 @@
 			);
 			name = EmoticonApp;
 			productName = EmoticonApp;
-			productReference = C726CAAC25B5AE6E0098195F /* EmoticonApp.app */;
+			productReference = C726CB7A25B7C3460098195F /* EmoticonApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C726CAC125B5AE6F0098195F /* EmoticonAppTests */ = {
+		C726CB8F25B7C3470098195F /* EmoticonAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C726CAD925B5AE6F0098195F /* Build configuration list for PBXNativeTarget "EmoticonAppTests" */;
+			buildConfigurationList = C726CBA725B7C3470098195F /* Build configuration list for PBXNativeTarget "EmoticonAppTests" */;
 			buildPhases = (
-				C726CABE25B5AE6F0098195F /* Sources */,
-				C726CABF25B5AE6F0098195F /* Frameworks */,
-				C726CAC025B5AE6F0098195F /* Resources */,
+				C726CB8C25B7C3470098195F /* Sources */,
+				C726CB8D25B7C3470098195F /* Frameworks */,
+				C726CB8E25B7C3470098195F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C726CAC425B5AE6F0098195F /* PBXTargetDependency */,
+				C726CB9225B7C3470098195F /* PBXTargetDependency */,
 			);
 			name = EmoticonAppTests;
 			productName = EmoticonAppTests;
-			productReference = C726CAC225B5AE6F0098195F /* EmoticonAppTests.xctest */;
+			productReference = C726CB9025B7C3470098195F /* EmoticonAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C726CACC25B5AE6F0098195F /* EmoticonAppUITests */ = {
+		C726CB9A25B7C3470098195F /* EmoticonAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C726CADC25B5AE6F0098195F /* Build configuration list for PBXNativeTarget "EmoticonAppUITests" */;
+			buildConfigurationList = C726CBAA25B7C3470098195F /* Build configuration list for PBXNativeTarget "EmoticonAppUITests" */;
 			buildPhases = (
-				C726CAC925B5AE6F0098195F /* Sources */,
-				C726CACA25B5AE6F0098195F /* Frameworks */,
-				C726CACB25B5AE6F0098195F /* Resources */,
+				C726CB9725B7C3470098195F /* Sources */,
+				C726CB9825B7C3470098195F /* Frameworks */,
+				C726CB9925B7C3470098195F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C726CACF25B5AE6F0098195F /* PBXTargetDependency */,
+				C726CB9D25B7C3470098195F /* PBXTargetDependency */,
 			);
 			name = EmoticonAppUITests;
 			productName = EmoticonAppUITests;
-			productReference = C726CACD25B5AE6F0098195F /* EmoticonAppUITests.xctest */;
+			productReference = C726CB9B25B7C3470098195F /* EmoticonAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C726CAA425B5AE6E0098195F /* Project object */ = {
+		C726CB7225B7C3460098195F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "이준형";
 				TargetAttributes = {
-					C726CAAB25B5AE6E0098195F = {
+					C726CB7925B7C3460098195F = {
 						CreatedOnToolsVersion = 11.7;
 					};
-					C726CAC125B5AE6F0098195F = {
+					C726CB8F25B7C3470098195F = {
 						CreatedOnToolsVersion = 11.7;
-						TestTargetID = C726CAAB25B5AE6E0098195F;
+						TestTargetID = C726CB7925B7C3460098195F;
 					};
-					C726CACC25B5AE6F0098195F = {
+					C726CB9A25B7C3470098195F = {
 						CreatedOnToolsVersion = 11.7;
-						TestTargetID = C726CAAB25B5AE6E0098195F;
+						TestTargetID = C726CB7925B7C3460098195F;
 					};
 				};
 			};
-			buildConfigurationList = C726CAA725B5AE6E0098195F /* Build configuration list for PBXProject "EmoticonApp" */;
+			buildConfigurationList = C726CB7525B7C3460098195F /* Build configuration list for PBXProject "EmoticonApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +254,37 @@
 				en,
 				Base,
 			);
-			mainGroup = C726CAA325B5AE6E0098195F;
-			productRefGroup = C726CAAD25B5AE6E0098195F /* Products */;
+			mainGroup = C726CB7125B7C3460098195F;
+			productRefGroup = C726CB7B25B7C3460098195F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C726CAAB25B5AE6E0098195F /* EmoticonApp */,
-				C726CAC125B5AE6F0098195F /* EmoticonAppTests */,
-				C726CACC25B5AE6F0098195F /* EmoticonAppUITests */,
+				C726CB7925B7C3460098195F /* EmoticonApp */,
+				C726CB8F25B7C3470098195F /* EmoticonAppTests */,
+				C726CB9A25B7C3470098195F /* EmoticonAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C726CAAA25B5AE6E0098195F /* Resources */ = {
+		C726CB7825B7C3460098195F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C726CABC25B5AE6F0098195F /* LaunchScreen.storyboard in Resources */,
-				C726CAB925B5AE6F0098195F /* Assets.xcassets in Resources */,
-				C726CAB725B5AE6E0098195F /* Main.storyboard in Resources */,
+				C726CB8A25B7C3470098195F /* LaunchScreen.storyboard in Resources */,
+				C726CB8725B7C3470098195F /* Assets.xcassets in Resources */,
+				C726CB8525B7C3460098195F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C726CAC025B5AE6F0098195F /* Resources */ = {
+		C726CB8E25B7C3470098195F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C726CACB25B5AE6F0098195F /* Resources */ = {
+		C726CB9925B7C3470098195F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +294,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C726CAA825B5AE6E0098195F /* Sources */ = {
+		C726CB7625B7C3460098195F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C726CAB025B5AE6E0098195F /* AppDelegate.swift in Sources */,
-				C726CAE225B5B2120098195F /* TableViewController.swift in Sources */,
-				C726CAF025B5BC400098195F /* SceneDelegate.swift in Sources */,
+				C726CBB325B7C38B0098195F /* MainTableViewCell.swift in Sources */,
+				C726CBB725B7C3930098195F /* MainViewController.swift in Sources */,
+				C726CB7E25B7C3460098195F /* AppDelegate.swift in Sources */,
+				C726CBB225B7C38B0098195F /* HistoryTableViewCell.swift in Sources */,
+				C726CBB625B7C3930098195F /* CartViewController.swift in Sources */,
+				C726CB8025B7C3460098195F /* SceneDelegate.swift in Sources */,
+				C726CBBB25B7C39C0098195F /* data.swift in Sources */,
+				C726CBBA25B7C39C0098195F /* cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C726CABE25B5AE6F0098195F /* Sources */ = {
+		C726CB8C25B7C3470098195F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C726CAC725B5AE6F0098195F /* EmoticonAppTests.swift in Sources */,
+				C726CB9525B7C3470098195F /* EmoticonAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C726CAC925B5AE6F0098195F /* Sources */ = {
+		C726CB9725B7C3470098195F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C726CAD225B5AE6F0098195F /* EmoticonAppUITests.swift in Sources */,
+				C726CBA025B7C3470098195F /* EmoticonAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C726CAC425B5AE6F0098195F /* PBXTargetDependency */ = {
+		C726CB9225B7C3470098195F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C726CAAB25B5AE6E0098195F /* EmoticonApp */;
-			targetProxy = C726CAC325B5AE6F0098195F /* PBXContainerItemProxy */;
+			target = C726CB7925B7C3460098195F /* EmoticonApp */;
+			targetProxy = C726CB9125B7C3470098195F /* PBXContainerItemProxy */;
 		};
-		C726CACF25B5AE6F0098195F /* PBXTargetDependency */ = {
+		C726CB9D25B7C3470098195F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C726CAAB25B5AE6E0098195F /* EmoticonApp */;
-			targetProxy = C726CACE25B5AE6F0098195F /* PBXContainerItemProxy */;
+			target = C726CB7925B7C3460098195F /* EmoticonApp */;
+			targetProxy = C726CB9C25B7C3470098195F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C726CAB525B5AE6E0098195F /* Main.storyboard */ = {
+		C726CB8325B7C3460098195F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C726CAB625B5AE6E0098195F /* Base */,
+				C726CB8425B7C3460098195F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C726CABA25B5AE6F0098195F /* LaunchScreen.storyboard */ = {
+		C726CB8825B7C3470098195F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C726CABB25B5AE6F0098195F /* Base */,
+				C726CB8925B7C3470098195F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +360,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C726CAD425B5AE6F0098195F /* Debug */ = {
+		C726CBA225B7C3470098195F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		C726CAD525B5AE6F0098195F /* Release */ = {
+		C726CBA325B7C3470098195F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +474,7 @@
 			};
 			name = Release;
 		};
-		C726CAD725B5AE6F0098195F /* Debug */ = {
+		C726CBA525B7C3470098195F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -448,7 +492,7 @@
 			};
 			name = Debug;
 		};
-		C726CAD825B5AE6F0098195F /* Release */ = {
+		C726CBA625B7C3470098195F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -466,7 +510,7 @@
 			};
 			name = Release;
 		};
-		C726CADA25B5AE6F0098195F /* Debug */ = {
+		C726CBA825B7C3470098195F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -488,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		C726CADB25B5AE6F0098195F /* Release */ = {
+		C726CBA925B7C3470098195F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -510,7 +554,7 @@
 			};
 			name = Release;
 		};
-		C726CADD25B5AE6F0098195F /* Debug */ = {
+		C726CBAB25B7C3470098195F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,7 +574,7 @@
 			};
 			name = Debug;
 		};
-		C726CADE25B5AE6F0098195F /* Release */ = {
+		C726CBAC25B7C3470098195F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -553,43 +597,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C726CAA725B5AE6E0098195F /* Build configuration list for PBXProject "EmoticonApp" */ = {
+		C726CB7525B7C3460098195F /* Build configuration list for PBXProject "EmoticonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C726CAD425B5AE6F0098195F /* Debug */,
-				C726CAD525B5AE6F0098195F /* Release */,
+				C726CBA225B7C3470098195F /* Debug */,
+				C726CBA325B7C3470098195F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C726CAD625B5AE6F0098195F /* Build configuration list for PBXNativeTarget "EmoticonApp" */ = {
+		C726CBA425B7C3470098195F /* Build configuration list for PBXNativeTarget "EmoticonApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C726CAD725B5AE6F0098195F /* Debug */,
-				C726CAD825B5AE6F0098195F /* Release */,
+				C726CBA525B7C3470098195F /* Debug */,
+				C726CBA625B7C3470098195F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C726CAD925B5AE6F0098195F /* Build configuration list for PBXNativeTarget "EmoticonAppTests" */ = {
+		C726CBA725B7C3470098195F /* Build configuration list for PBXNativeTarget "EmoticonAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C726CADA25B5AE6F0098195F /* Debug */,
-				C726CADB25B5AE6F0098195F /* Release */,
+				C726CBA825B7C3470098195F /* Debug */,
+				C726CBA925B7C3470098195F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C726CADC25B5AE6F0098195F /* Build configuration list for PBXNativeTarget "EmoticonAppUITests" */ = {
+		C726CBAA25B7C3470098195F /* Build configuration list for PBXNativeTarget "EmoticonAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C726CADD25B5AE6F0098195F /* Debug */,
-				C726CADE25B5AE6F0098195F /* Release */,
+				C726CBAB25B7C3470098195F /* Debug */,
+				C726CBAC25B7C3470098195F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C726CAA425B5AE6E0098195F /* Project object */;
+	rootObject = C726CB7225B7C3460098195F /* Project object */;
 }

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  emoticonTest
+//  EmoticonApp
 //
-//  Created by 이준형 on 2021/01/18.
+//  Created by 이준형 on 2021/01/20.
 //  Copyright © 2021 이준형. All rights reserved.
 //
 
