@@ -17,9 +17,6 @@ class HistoryTableViewCell: UITableViewCell {
     private let screenwidth = UIScreen.main.bounds.size.width
     private let screenheight = UIScreen.main.bounds.size.height
     
-    let data = emoticonData()
-    
-    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         initUI()
