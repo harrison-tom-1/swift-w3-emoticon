@@ -12,8 +12,13 @@ struct UserDefault {
     
     static let db = UserDefaults.standard
 
-    static func getData() -> Data? {
-        return db.data(forKey: "histories") ?? nil
+    static func getData() -> [History] {
+        var array: [History] = []
+        if let data = db.data(forKey: "histories") {
+            let dataArray = try! PropertyListDecoder().decode([History].self, from: data)
+            array = dataArray
+        }
+        return array
     }
 
     static func addData(_ dataArray: [History]) {
@@ -24,14 +29,7 @@ struct UserDefault {
 }
 
 struct Cart {
-    static var myEmoticons: [History] = {
-        var array: [History] = []
-        if let data = UserDefault.getData() {
-            let dataArray = try! PropertyListDecoder().decode([History].self, from: data)
-            array = dataArray
-        }
-        return array
-    }()
+    static var myEmoticons: [History] = UserDefault.getData()
 
      static var count: Int {
         self.myEmoticons.count
