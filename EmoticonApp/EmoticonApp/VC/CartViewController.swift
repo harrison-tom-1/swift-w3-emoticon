@@ -76,4 +76,12 @@ extension CartViewController : UITableViewDelegate, UITableViewDataSource {
         }
         return UITableViewCell()
     }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+
+        if editingStyle == .delete {
+            Cart.remove(index: indexPath.row)
+            self.myHistoryTableView.reloadData()
+        }
+    }
 }
