@@ -45,9 +45,11 @@ struct Cart {
 
     static func remove(index: Int) {
         self.myEmoticons.remove(at: index)
+        NotificationCenter.default.post(name: NSNotification.Name("historyCellReload"), object: nil, userInfo: nil)
     }
     static func removeAll() {
         self.myEmoticons.removeAll()
+        NotificationCenter.default.post(name: NSNotification.Name("historyCellReload"), object: nil, userInfo: nil)
     }
     
     static subscript(index: Int) -> History {
