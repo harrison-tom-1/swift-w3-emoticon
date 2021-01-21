@@ -16,7 +16,6 @@ class MainViewController: UIViewController {
     private let screenWidth = UIScreen.main.bounds.size.width
     private let screenHeight = UIScreen.main.bounds.size.height
     
-    
     private var myTableView: UITableView!
     private var cellHeight: CGFloat = CGFloat(100)
     private let numOfCell: CGFloat = 8
@@ -34,8 +33,18 @@ class MainViewController: UIViewController {
         initNavigationBar()
         initAdView()
         initEmoticonTable()
+
+        NotificationCenter.default.addObserver(self, selector: #selector(buyBtnPressed(_:)), name: NSNotification.Name("buyEmoticonNotification"), object: nil)
+
     }
     
+    @objc func buyBtnPressed(_ notification: Notification){
+        guard let emoticonName: String = notification.userInfo?["name"] as? String else { return }
+        
+        var date = DateFormatter()
+        date.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        Cart.buyEmoticon(title: emoticonName, date: date.string(from: Date()))
+    }
     
     func initNavigationBar(){
         self.navigationController?.navigationBar.isHidden = false
@@ -65,8 +74,6 @@ class MainViewController: UIViewController {
         view.addSubview(self.myTableView)
         cellHeight = CGFloat((self.screenHeight-positionY)/numOfCell)
     }
-    
-
     
     @objc private func buttonPressed() {
         let uvc = CartViewController()

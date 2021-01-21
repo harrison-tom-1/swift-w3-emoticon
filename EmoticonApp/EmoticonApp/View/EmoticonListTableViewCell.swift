@@ -16,7 +16,7 @@ class EmoticonListTableViewCell: UITableViewCell {
     private var emoticonAuthor: UILabel?
     private var buyBtn: UIButton?
     
-    let data = emoticonData()
+    private let data = emoticonData()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -77,9 +77,8 @@ class EmoticonListTableViewCell: UITableViewCell {
     
     @objc func buttonPressed(){
         if let name = emoticonName {
-            var date = DateFormatter()
-            date.dateFormat = "yyyy-MM-dd HH:mm:ss"
-            Cart.buyEmoticon(title: name.text!, date: date.string(from: Date()))
+            let userInfo: [AnyHashable: Any] = ["name":name.text!]
+            NotificationCenter.default.post(name: NSNotification.Name("buyEmoticonNotification"), object: nil, userInfo: userInfo)
         }
         
     }
