@@ -37,8 +37,9 @@ struct Cart {
         self.myEmoticons.count
     }
 
-    static func buyEmoticon(title: String, date: String) {
-        self.myEmoticons.append(History(title: title, date: date))
+    static func buyEmoticon(title: String, date: DateFormatter) {
+        date.dateFormat = "yyyy-MM-dd HH:mm:ss"
+        self.myEmoticons.append(History(title: title, date:  date.string(from: Date())))
         UserDefault.addData(self.myEmoticons)
     }
 
