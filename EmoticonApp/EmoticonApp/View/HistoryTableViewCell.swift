@@ -14,6 +14,8 @@ class HistoryTableViewCell: UITableViewCell {
     
     private var emoticonName: UILabel?
     private var time: UILabel?
+    private let screenwidth = UIScreen.main.bounds.size.width
+    private let screenheight = UIScreen.main.bounds.size.height
     
     let data = emoticonData()
     
@@ -42,13 +44,11 @@ class HistoryTableViewCell: UITableViewCell {
     }
     
     func setHeight(height: CGFloat) {
-        emoticonName?.frame.size.height = height / 2
-        emoticonName?.frame.origin = CGPoint(x: 10 , y: 0)
-        emoticonName?.frame.size = CGSize(width: self.frame.width-height, height: height / 2)
+        emoticonName?.frame.origin = CGPoint(x: 5 , y: 0)
+        emoticonName?.frame.size = CGSize(width: self.screenwidth/2 - 10, height: height / 2)
         
-        time?.frame.size.height = height / 2
-        time?.frame.origin = CGPoint(x: self.frame.width/2 + height/2, y: 0)
-        time?.frame.size = CGSize(width: height*3, height: height / 2)
+        time?.frame.origin = CGPoint(x: self.screenwidth/2 + 5 , y: 0)
+        time?.frame.size = CGSize(width: self.screenwidth/2 - 10, height: height / 2)
     }
     
     func initEmoticonValue(indexPath : IndexPath, cellHeight : CGFloat){
