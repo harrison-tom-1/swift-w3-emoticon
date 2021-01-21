@@ -22,7 +22,7 @@ class CartViewController: UIViewController{
     private let screenHeight = UIScreen.main.bounds.size.height
     
     private var cellHeight: CGFloat = CGFloat(100)
-    private let numOfCell: CGFloat = 8
+    private let numOfCellView: CGFloat = 8
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,7 +50,7 @@ class CartViewController: UIViewController{
         myHistoryTableView.translatesAutoresizingMaskIntoConstraints = false
         myHistoryTableView.register(HistoryTableViewCell.self, forCellReuseIdentifier: HistoryTableViewCell.cellIdentifier)
         self.view.addSubview(self.myHistoryTableView)
-        cellHeight = CGFloat((self.screenHeight-positionY)/numOfCell)
+        cellHeight = CGFloat((self.screenHeight-positionY)/numOfCellView)
     }
     
     @objc private func cleanButtonPressed() {
