@@ -28,11 +28,13 @@ class CartViewController: UIViewController{
         super.viewDidLoad()
         initNavigationBar()
         initEmoticonTable()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(viewReloadFunc), name: NSNotification.Name("historyCellReload"), object: nil)
     }
     
     func initNavigationBar(){
         self.cleanButton.target = self
-        self.cleanButton.action = #selector(buttonPressed)
+        self.cleanButton.action = #selector(cleanButtonPressed)
         self.navigationItem.title = "History"
         self.navigationItem.rightBarButtonItem = cleanButton
     }
@@ -51,8 +53,11 @@ class CartViewController: UIViewController{
         cellHeight = CGFloat((self.screenHeight-positionY)/numOfCell)
     }
     
-    @objc private func buttonPressed() {
+    @objc private func cleanButtonPressed() {
         Cart.removeAll()
+    }
+
+    @objc func viewReloadFunc(){
         self.myHistoryTableView.reloadData()
     }
 }
