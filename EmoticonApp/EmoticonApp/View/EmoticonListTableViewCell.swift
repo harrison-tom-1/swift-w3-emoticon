@@ -16,7 +16,7 @@ class EmoticonListTableViewCell: UITableViewCell {
     private var emoticonAuthor: UILabel?
     private var buyBtn: UIButton?
     
-    private let data = emoticonData()
+    private let allEmoticonData = emoticonData()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -68,9 +68,9 @@ class EmoticonListTableViewCell: UITableViewCell {
     }
     
     public func initEmoticonValue(indexPath : IndexPath, cellHeight : CGFloat){
-        self.emoticonImg?.image = UIImage(named: data.list[indexPath.row]["image"]!)
-        self.emoticonName?.text = data.list[indexPath.row]["title"] ?? ""
-        self.emoticonAuthor?.text = data.list[indexPath.row]["author"] ?? ""
+        self.emoticonImg?.image = UIImage(named: allEmoticonData.list[indexPath.row]["image"]!)
+        self.emoticonName?.text = allEmoticonData.list[indexPath.row]["title"] ?? ""
+        self.emoticonAuthor?.text = allEmoticonData.list[indexPath.row]["author"] ?? ""
         self.selectionStyle = .none
         self.setHeight(height: cellHeight)
     }

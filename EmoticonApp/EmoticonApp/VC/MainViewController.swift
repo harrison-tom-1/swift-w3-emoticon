@@ -19,7 +19,7 @@ class MainViewController: UIViewController {
     private var myTableView: UITableView!
     private var cellHeight: CGFloat = CGFloat(100)
     private let numOfCell: CGFloat = 8
-    private let data = emoticonData()
+    private let allEmoticonData = emoticonData()
     
     private var rightButton: UIBarButtonItem = {
         let button = UIBarButtonItem()
@@ -87,7 +87,7 @@ extension MainViewController:  UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return data.size()
+        return allEmoticonData.size()
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

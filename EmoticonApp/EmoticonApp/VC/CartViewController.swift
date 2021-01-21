@@ -23,7 +23,6 @@ class CartViewController: UIViewController{
     
     private var cellHeight: CGFloat = CGFloat(100)
     private let numOfCell: CGFloat = 8
-    private let data = emoticonData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
