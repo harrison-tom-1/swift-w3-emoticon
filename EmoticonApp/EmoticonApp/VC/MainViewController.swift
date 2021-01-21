@@ -43,7 +43,6 @@ class MainViewController: UIViewController {
         
         var date = DateFormatter()
         date.dateFormat = "yyyy-MM-dd HH:mm:ss"
-//        Cart.buyEmoticon(title: emoticonName, date: date.string(from: Date()))
         Cart.buyEmoticon(title: emoticonName, date: DateFormatter())
     }
     
