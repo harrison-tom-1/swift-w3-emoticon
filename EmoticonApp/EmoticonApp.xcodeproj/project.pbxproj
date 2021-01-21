@@ -15,11 +15,12 @@
 		C726CB9525B7C3470098195F /* EmoticonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CB9425B7C3470098195F /* EmoticonAppTests.swift */; };
 		C726CBA025B7C3470098195F /* EmoticonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CB9F25B7C3470098195F /* EmoticonAppUITests.swift */; };
 		C726CBB225B7C38B0098195F /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB025B7C38B0098195F /* HistoryTableViewCell.swift */; };
-		C726CBB325B7C38B0098195F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB125B7C38B0098195F /* MainTableViewCell.swift */; };
-		C726CBB625B7C3930098195F /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB425B7C3930098195F /* CartViewController.swift */; };
 		C726CBB725B7C3930098195F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB525B7C3930098195F /* MainViewController.swift */; };
 		C726CBBA25B7C39C0098195F /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB825B7C39C0098195F /* cart.swift */; };
 		C726CBBB25B7C39C0098195F /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBB925B7C39C0098195F /* data.swift */; };
+		C726CBC125B8685D0098195F /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726CBC025B8685D0098195F /* EventView.swift */; };
+		C72EDAA625B9801400B68057 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EDAA425B9801400B68057 /* CartViewController.swift */; };
+		C72EDAA925B9808200B68057 /* EmoticonListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72EDAA825B9808200B68057 /* EmoticonListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +55,12 @@
 		C726CB9F25B7C3470098195F /* EmoticonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonAppUITests.swift; sourceTree = "<group>"; };
 		C726CBA125B7C3470098195F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C726CBB025B7C38B0098195F /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
-		C726CBB125B7C38B0098195F /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
-		C726CBB425B7C3930098195F /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		C726CBB525B7C3930098195F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C726CBB825B7C39C0098195F /* cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
 		C726CBB925B7C39C0098195F /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		C726CBC025B8685D0098195F /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		C72EDAA425B9801400B68057 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		C72EDAA825B9808200B68057 /* EmoticonListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				C726CBB025B7C38B0098195F /* HistoryTableViewCell.swift */,
-				C726CBB125B7C38B0098195F /* MainTableViewCell.swift */,
+				C72EDAA825B9808200B68057 /* EmoticonListTableViewCell.swift */,
+				C726CBC025B8685D0098195F /* EventView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,7 +164,7 @@
 		C726CBAF25B7C3720098195F /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				C726CBB425B7C3930098195F /* CartViewController.swift */,
+				C72EDAA425B9801400B68057 /* CartViewController.swift */,
 				C726CBB525B7C3930098195F /* MainViewController.swift */,
 			);
 			path = VC;
@@ -298,11 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C726CBB325B7C38B0098195F /* MainTableViewCell.swift in Sources */,
+				C72EDAA925B9808200B68057 /* EmoticonListTableViewCell.swift in Sources */,
 				C726CBB725B7C3930098195F /* MainViewController.swift in Sources */,
+				C72EDAA625B9801400B68057 /* CartViewController.swift in Sources */,
 				C726CB7E25B7C3460098195F /* AppDelegate.swift in Sources */,
+				C726CBC125B8685D0098195F /* EventView.swift in Sources */,
 				C726CBB225B7C38B0098195F /* HistoryTableViewCell.swift in Sources */,
-				C726CBB625B7C3930098195F /* CartViewController.swift in Sources */,
 				C726CB8025B7C3460098195F /* SceneDelegate.swift in Sources */,
 				C726CBBB25B7C39C0098195F /* data.swift in Sources */,
 				C726CBBA25B7C39C0098195F /* cart.swift in Sources */,
